@@ -1,13 +1,15 @@
 
-# Selenium Python Automation Framework 
+# Selenium Python Automation POM Template
 
-This is a sample test automation framework for web application testing using Selenium and Python. It follows the Page Object Model design pattern.
-The sample page uses the main DuckDuckGo page
-The sample test does a simple search and assert result in page title
+This is a sample test automation template for web application testing using Selenium and Python. It follows the Page Object Model design pattern. <br>
+The sample page uses the main DuckDuckGo page. <br>
+The sample test does a simple search and asserts result in page title. <br>
+<br>
+You should be able to clone the repository, install dependencies and run the first test. After that, you can add more pages and tests to build your own functional test suite.
 
 ## Overview
 
-The framework consists of:
+This repository template consists of:
 
 - `/data` - Directory for sorting input test data
 - `/logs` - Contains logs from test runs
@@ -18,15 +20,14 @@ The framework consists of:
 
 ## Setup 
 
-- Clone repository 
-- Open in a Python IDE
-- Install Python 3.9+
+- Clone repository
+- Install Python 3.11+ (older versions potentially compatible)
 - Install pip
 - Install dependencies: `pip install -r requirements.txt` 
 - Download web drivers for Chrome and Firefox
 - Add web drivers to PATH
 
-## Running Tests
+## Running Tests from command line
 
 To run all tests:
 ```
