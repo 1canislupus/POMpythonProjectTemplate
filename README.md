@@ -2,6 +2,8 @@
 # Selenium Python Automation Framework 
 
 This is a sample test automation framework for web application testing using Selenium and Python. It follows the Page Object Model design pattern.
+The sample page uses the main DuckDuckGo page
+The sample test does a simple search and assert result in page title
 
 ## Overview
 
